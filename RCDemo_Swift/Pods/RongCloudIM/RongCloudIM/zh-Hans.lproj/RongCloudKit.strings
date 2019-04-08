@@ -180,6 +180,11 @@
 "GroupQuit"="%@退出了群组";
 "GroupChanged"="%@修改群名为“%@”";
 "GroupJoin"="%@加入了群组";
+"GroupHaveCreated"="%@创建了群组";
+"GroupHaveInvited"="%@邀请%@加入了群组";
+"GroupHaveRemoved"="%@将%@移出了群组";
+"GroupHaveDismiss"="%@解散了群组";
+"GroupHaveQuit"="%@退出了群组";
 "GroupEtc"="等";
 "GroupAnnouncementUpdated"="%@更新了群公告";
 "ImageLoadFailed"="图片加载失败";
@@ -208,11 +213,13 @@
 "Person"="人";
 "SelectContact"="选择联系人";
 "MessageTapMore"="更多...";
+
 "bottom_result_view_choosed_person_prefix"="已选择";
 "bottom_result_view_choosed_person_subfix"="人";
 "message_destructed"="该消息已自动销毁，无法继续查看";
 "receive_new_message"="你收到一条新消息";
 "push_to_talk"="对讲机";
+"no_message"="暂无消息";
 "hold_to_talk_title"="按住 说话";
 "release_to_send_title"="松开 发送";
 "slide_up_to_cancel_title"="手指上滑，取消发送";

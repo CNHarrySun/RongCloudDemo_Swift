@@ -3,7 +3,7 @@
 //  RCDemo_SwiftTests
 //
 //  Created by 孙浩 on 2019/2/25.
-//  Copyright © 2019 HarrySun. All rights reserved.
+//  Copyright © 2019 RongCloud. All rights reserved.
 //
 
 import XCTest

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A6BDEE909CEF5620885DDE47936DA2B9"
+               BlueprintIdentifier = "10B0CD5751973B9EE1F5E5DAB9A119EC"
                BuildableName = "RongCloudIM"
                BlueprintName = "RongCloudIM"
                ReferencedContainer = "container:Pods.xcodeproj">
