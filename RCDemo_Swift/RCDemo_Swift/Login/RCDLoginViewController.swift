@@ -65,11 +65,13 @@ extension RCDLoginViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        progressHUD.show(true)
+        progressHUD.show(animated: true)
         // 连接服务器
         RCIM.shared()?.connect(withToken: tokenArray[indexPath.row], success: { (userId) in
             RCDUserService.shared.getUserInfo(withUserId: userId, completion: { (userInfo) in
-                self.progressHUD.hide(true)
+                DispatchQueue.main.async {
+                    self.progressHUD.hide(animated: true)
+                }
                 // 设置当前的用户
                 RCIM.shared()?.currentUserInfo = userInfo
                 DispatchQueue.main.async {
@@ -83,13 +85,15 @@ extension RCDLoginViewController: UITableViewDelegate, UITableViewDataSource {
             // token 过期或者不正确。
             // 如果设置了 token 有效期并且 token 过期，请重新请求您的服务器获取新的 token
             // 如果没有设置 token 有效期却提示 token 错误，请检查您客户端和服务器的 appkey 是否匹配，还有检查您获取 token 的流程。
-            self.progressHUD.hide(true)
+            DispatchQueue.main.async {
+                self.progressHUD.hide(animated: true)
+            }
             print("token 错误")
         })
     }
     
     @objc func loginSuccess() {
-        progressHUD.hide(true)
+        progressHUD.hide(animated: true)
         dismiss(animated: true, completion: nil)
     }
 }

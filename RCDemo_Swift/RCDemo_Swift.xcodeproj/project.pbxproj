@@ -23,7 +23,6 @@
 		3B3DED552223F1900079DFE6 /* RCDemo_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3DED542223F1900079DFE6 /* RCDemo_SwiftUITests.swift */; };
 		3BBE50BB2244CAF6006B7B13 /* RCDTestMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE50BA2244CAF6006B7B13 /* RCDTestMessageCell.swift */; };
 		3BF83AD52248CA4B001C0E45 /* RCSwiftTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF83AD42248CA4B001C0E45 /* RCSwiftTool.m */; };
-		3BF83B192249BBF4001C0E45 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF83B172249BBF3001C0E45 /* MBProgressHUD.m */; };
 		57E79F3547823C53B4652A30 /* Pods_RCDemo_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5E1F9AF51B4BC92D63042E /* Pods_RCDemo_SwiftTests.framework */; };
 		6665FD31EE71CEA41CD33CA3 /* Pods_RCDemo_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91D51EBEC80C6014F10FF5B /* Pods_RCDemo_SwiftUITests.framework */; };
 		8C2B1AEE9A5807DCEAC90FD6 /* Pods_RCDemo_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6B6F977BE2ED33DF912C33 /* Pods_RCDemo_Swift.framework */; };
@@ -89,8 +88,6 @@
 		3BBE50BA2244CAF6006B7B13 /* RCDTestMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCDTestMessageCell.swift; sourceTree = "<group>"; };
 		3BF83AD32248CA4B001C0E45 /* RCSwiftTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCSwiftTool.h; sourceTree = "<group>"; };
 		3BF83AD42248CA4B001C0E45 /* RCSwiftTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCSwiftTool.m; sourceTree = "<group>"; };
-		3BF83B172249BBF3001C0E45 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		3BF83B182249BBF3001C0E45 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		3BF83B31224C63FC001C0E45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3BF83B33224C6428001C0E45 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		3BF83B35224C645B001C0E45 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
@@ -190,7 +187,6 @@
 				3B017453225C39DC0075A740 /* RCDNotification.swift */,
 				3BF83AD32248CA4B001C0E45 /* RCSwiftTool.h */,
 				3BF83AD42248CA4B001C0E45 /* RCSwiftTool.m */,
-				3BF83B162249BBF3001C0E45 /* MBProgressHUD */,
 			);
 			path = Vender;
 			sourceTree = "<group>";
@@ -252,15 +248,6 @@
 				3B3DED562223F1900079DFE6 /* Info.plist */,
 			);
 			path = RCDemo_SwiftUITests;
-			sourceTree = "<group>";
-		};
-		3BF83B162249BBF3001C0E45 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				3BF83B172249BBF3001C0E45 /* MBProgressHUD.m */,
-				3BF83B182249BBF3001C0E45 /* MBProgressHUD.h */,
-			);
-			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		3DA514A3C2C76D271ED1FAE6 /* Frameworks */ = {
@@ -555,7 +542,6 @@
 				3BF83AD52248CA4B001C0E45 /* RCSwiftTool.m in Sources */,
 				3B13AB282236550B007B808E /* RCDUserService.swift in Sources */,
 				3B13AB66223905FB007B808E /* MainTabBarController.swift in Sources */,
-				3BF83B192249BBF4001C0E45 /* MBProgressHUD.m in Sources */,
 				3B13AB23223608A1007B808E /* RCDTestMessage.swift in Sources */,
 				3B13AB1F2236084A007B808E /* RCDConversationListViewController.swift in Sources */,
 				3B3DED352223F18D0079DFE6 /* AppDelegate.swift in Sources */,
@@ -739,11 +725,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3T8XA4F59Q;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/RCDemo_Swift/Vender",
-					"$(PROJECT_DIR)/RCDemo_Swift/Vender/RCSticker",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = RCDemo_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -770,11 +752,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3T8XA4F59Q;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/RCDemo_Swift/Vender",
-					"$(PROJECT_DIR)/RCDemo_Swift/Vender/RCSticker",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = RCDemo_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
