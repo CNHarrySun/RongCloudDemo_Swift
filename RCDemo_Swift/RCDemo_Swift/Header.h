@@ -11,7 +11,7 @@
 
 #import <RongIMKit/RongIMKit.h>
 #import <RongContactCard/RCContactCardKit.h>
-#import <RongCallKit/RongCallKit.h>
+//#import <RongCallKit/RongCallKit.h>
 //#import <UIImageView+WebCache.h>
 // 如果报错 not found ”UIImageView+WebCache.h“，按照下面代码引入
 #import <SDWebImage/UIImageView+WebCache.h>

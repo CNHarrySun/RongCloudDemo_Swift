@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -219,12 +219,12 @@
 		3B13AB2922365B2E007B808E /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				3B017453225C39DC0075A740 /* RCDNotification.swift */,
 				3BF83AD32248CA4B001C0E45 /* RCSwiftTool.h */,
 				3BF83AD42248CA4B001C0E45 /* RCSwiftTool.m */,
 				3BF83B162249BBF3001C0E45 /* MBProgressHUD */,
 				3BF83AF52248EF36001C0E45 /* RealTimeLocation */,
 				3B13AB2A22365B2E007B808E /* RongContactCard.framework */,
-				3B017453225C39DC0075A740 /* RCDNotification.swift */,
 			);
 			path = Vender;
 			sourceTree = "<group>";

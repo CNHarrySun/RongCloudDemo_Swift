@@ -7,7 +7,7 @@ target 'RCDemo_Swift' do
 
 platform :ios, '8.0'
 pod 'RongCloudIM', '~> 2.9.13'
-pod 'RongCloudRTC', '~> 2.9.13'
+#pod 'RongCloudRTC', '~> 2.9.13'
 pod 'SDWebImage','~>4.3.3'
 
 
