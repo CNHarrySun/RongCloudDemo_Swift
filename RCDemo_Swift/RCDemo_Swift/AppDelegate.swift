@@ -73,11 +73,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // 设置导航按钮字体颜色
         RCIM.shared()?.globalNavigationBarTintColor = .blue;
 
-        /* RedPacket_FTR  */
-        // 需要在info.plist加上您的红包的scheme，注意一定不能与其它应用重复
-        // 设置扩展Module的Url Scheme。
-        RCIM.shared()?.setScheme("rongCloudRedPacket", forExtensionModule: "JrmfPacketManager")
-
         // 注册自定义消息
         RCIM.shared()?.registerMessageType(RCDTestMessage.self)
 
@@ -94,10 +89,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         RCIM.shared()?.userInfoDataSource = RCDUserService.shared
         RCIM.shared()?.groupInfoDataSource = RCDUserService.shared
         RCIM.shared()?.groupMemberDataSource = RCDUserService.shared
-
-        // 设置名片消息功能中联系人信息源和群组信息源
-        RCContactCardKit.shareInstance()?.contactsDataSource = RCDUserService.shared
-        RCContactCardKit.shareInstance()?.groupDataSource = RCDUserService.shared
 
         // 设置接收消息代理
         RCIM.shared()?.receiveMessageDelegate = self
@@ -287,7 +278,7 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
     }
 }
 
-// IMKit连接状态的监听器
+// MARK: - RCIMConnectionStatusDelegate IMKit 连接状态的监听器
 extension AppDelegate: RCIMConnectionStatusDelegate {
     func onRCIMConnectionStatusChanged(_ status: RCConnectionStatus) {
         
@@ -312,6 +303,8 @@ extension AppDelegate: RCIMConnectionStatusDelegate {
     
 }
 
+
+// MARK: - RCIMReceiveMessageDelegate
 extension AppDelegate: RCIMReceiveMessageDelegate {
     // 接收消息的回调方法
     func onRCIMReceive(_ message: RCMessage!, left: Int32) {

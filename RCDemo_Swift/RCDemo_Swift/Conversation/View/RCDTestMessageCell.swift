@@ -128,8 +128,6 @@ class RCDTestMessageCell: RCMessageCell {
             let portraitWidth = RCIM.shared()?.globalMessagePortraitSize.width
             let portrait = (10 + (portraitWidth ?? 0.0) + 10) * 2
             let maxWidth = screenWidth - portrait - 5 - 35
-                
-                // Float(screenWidth - (10.0 + portraitWidth + 10.0) * 2 - 5 - 35)
             
             var textRect = (message.content).boundingRect(with: CGSize(width: maxWidth, height: 8000), options: .usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: textMessageFontSize)], context: nil)
             textRect.size.height = CGFloat(ceilf(Float(textRect.size.height)))

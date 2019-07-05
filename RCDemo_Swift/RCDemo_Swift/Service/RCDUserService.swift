@@ -66,22 +66,3 @@ extension RCDUserService: RCIMGroupMemberDataSource {
     }
 }
 
-extension RCDUserService: RCCCContactsDataSource {
-    func getAllContacts(_ resultBlock: (([RCCCUserInfo]?) -> Void)!) {
-        var userArray: [RCCCUserInfo] = []
-        let portrait = "https://www.kuk8.com/uploads/allimg/170916/1-1F91214235H54.jpg"
-        let idArray = ["ceshi1", "ceshi2", "ceshi3"]
-        let nameArray = ["测试1", "测试2", "测试3"]
-        for (i, id) in idArray.enumerated() {
-            let user = RCCCUserInfo(userId: id, name: nameArray[i], portrait: portrait)
-            userArray.append(user ?? RCCCUserInfo())
-        }
-        resultBlock(userArray)
-    }
-}
-
-extension RCDUserService: RCCCGroupDataSource {
-    func getGroupInfo(byGroupId groupId: String!, result resultBlock: ((RCCCGroupInfo?) -> Void)!) {
-        
-    }
-}

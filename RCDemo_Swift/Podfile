@@ -5,9 +5,11 @@ target 'RCDemo_Swift' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
+  
 platform :ios, '8.0'
-pod 'RongCloudIM', '~> 2.9.13'
-#pod 'RongCloudRTC', '~> 2.9.13'
+pod 'RongCloudIM/IMKit', '~> 2.9.18'
+pod 'RongCloudIM/Sight', '~> 2.9.18'
+pod 'RongCloudIM/RongSticker', '~> 2.9.18'
 pod 'SDWebImage','~>4.3.3'
 
 

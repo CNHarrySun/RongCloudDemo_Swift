@@ -23,17 +23,7 @@
 		3B3DED552223F1900079DFE6 /* RCDemo_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3DED542223F1900079DFE6 /* RCDemo_SwiftUITests.swift */; };
 		3BBE50BB2244CAF6006B7B13 /* RCDTestMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE50BA2244CAF6006B7B13 /* RCDTestMessageCell.swift */; };
 		3BF83AD52248CA4B001C0E45 /* RCSwiftTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF83AD42248CA4B001C0E45 /* RCSwiftTool.m */; };
-		3BF83B092248EF36001C0E45 /* RealTimeLocationStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF83AF62248EF36001C0E45 /* RealTimeLocationStatusView.m */; };
-		3BF83B0A2248EF36001C0E45 /* RCAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF83AFC2248EF36001C0E45 /* RCAnnotation.m */; };
-		3BF83B0B2248EF36001C0E45 /* RCLocationConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF83AFD2248EF36001C0E45 /* RCLocationConvert.m */; };
-		3BF83B0C2248EF36001C0E45 /* RCLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF83AFE2248EF36001C0E45 /* RCLocationView.m */; };
-		3BF83B0D2248EF36001C0E45 /* RCAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF83B002248EF36001C0E45 /* RCAnnotationView.m */; };
-		3BF83B0E2248EF36001C0E45 /* RealTimeLocationEndCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF83B052248EF36001C0E45 /* RealTimeLocationEndCell.m */; };
-		3BF83B0F2248EF36001C0E45 /* RealTimeLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF83B062248EF36001C0E45 /* RealTimeLocationViewController.m */; };
-		3BF83B102248EF36001C0E45 /* RealTimeLocationStartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF83B072248EF36001C0E45 /* RealTimeLocationStartCell.m */; };
-		3BF83B112248EF36001C0E45 /* HeadCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF83B082248EF36001C0E45 /* HeadCollectionView.m */; };
 		3BF83B192249BBF4001C0E45 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF83B172249BBF3001C0E45 /* MBProgressHUD.m */; };
-		3BF83B1C2249BC1C001C0E45 /* UIColor+RCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF83B1A2249BC1C001C0E45 /* UIColor+RCColor.m */; };
 		57E79F3547823C53B4652A30 /* Pods_RCDemo_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5E1F9AF51B4BC92D63042E /* Pods_RCDemo_SwiftTests.framework */; };
 		6665FD31EE71CEA41CD33CA3 /* Pods_RCDemo_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91D51EBEC80C6014F10FF5B /* Pods_RCDemo_SwiftUITests.framework */; };
 		8C2B1AEE9A5807DCEAC90FD6 /* Pods_RCDemo_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6B6F977BE2ED33DF912C33 /* Pods_RCDemo_Swift.framework */; };
@@ -64,7 +54,6 @@
 		3B13AB1E2236084A007B808E /* RCDConversationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCDConversationListViewController.swift; sourceTree = "<group>"; };
 		3B13AB22223608A1007B808E /* RCDTestMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCDTestMessage.swift; sourceTree = "<group>"; };
 		3B13AB272236550B007B808E /* RCDUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCDUserService.swift; sourceTree = "<group>"; };
-		3B13AB2A22365B2E007B808E /* RongContactCard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongContactCard.framework; sourceTree = "<group>"; };
 		3B13AB3F2237B89D007B808E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3B13AB412237B8A5007B808E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		3B13AB432237B8AE007B808E /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
@@ -100,29 +89,8 @@
 		3BBE50BA2244CAF6006B7B13 /* RCDTestMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCDTestMessageCell.swift; sourceTree = "<group>"; };
 		3BF83AD32248CA4B001C0E45 /* RCSwiftTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCSwiftTool.h; sourceTree = "<group>"; };
 		3BF83AD42248CA4B001C0E45 /* RCSwiftTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCSwiftTool.m; sourceTree = "<group>"; };
-		3BF83AF62248EF36001C0E45 /* RealTimeLocationStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealTimeLocationStatusView.m; sourceTree = "<group>"; };
-		3BF83AF72248EF36001C0E45 /* RealTimeLocationEndCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealTimeLocationEndCell.h; sourceTree = "<group>"; };
-		3BF83AF92248EF36001C0E45 /* RCLocationConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLocationConvert.h; sourceTree = "<group>"; };
-		3BF83AFA2248EF36001C0E45 /* RCLocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLocationView.h; sourceTree = "<group>"; };
-		3BF83AFB2248EF36001C0E45 /* RCAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCAnnotationView.h; sourceTree = "<group>"; };
-		3BF83AFC2248EF36001C0E45 /* RCAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCAnnotation.m; sourceTree = "<group>"; };
-		3BF83AFD2248EF36001C0E45 /* RCLocationConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLocationConvert.m; sourceTree = "<group>"; };
-		3BF83AFE2248EF36001C0E45 /* RCLocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLocationView.m; sourceTree = "<group>"; };
-		3BF83AFF2248EF36001C0E45 /* RCAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCAnnotation.h; sourceTree = "<group>"; };
-		3BF83B002248EF36001C0E45 /* RCAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCAnnotationView.m; sourceTree = "<group>"; };
-		3BF83B012248EF36001C0E45 /* HeadCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadCollectionView.h; sourceTree = "<group>"; };
-		3BF83B022248EF36001C0E45 /* RealTimeLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealTimeLocationViewController.h; sourceTree = "<group>"; };
-		3BF83B032248EF36001C0E45 /* RealTimeLocationStartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealTimeLocationStartCell.h; sourceTree = "<group>"; };
-		3BF83B042248EF36001C0E45 /* RealTimeLocationStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealTimeLocationStatusView.h; sourceTree = "<group>"; };
-		3BF83B052248EF36001C0E45 /* RealTimeLocationEndCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealTimeLocationEndCell.m; sourceTree = "<group>"; };
-		3BF83B062248EF36001C0E45 /* RealTimeLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealTimeLocationViewController.m; sourceTree = "<group>"; };
-		3BF83B072248EF36001C0E45 /* RealTimeLocationStartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealTimeLocationStartCell.m; sourceTree = "<group>"; };
-		3BF83B082248EF36001C0E45 /* HeadCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadCollectionView.m; sourceTree = "<group>"; };
-		3BF83B122249BB7E001C0E45 /* RCDCommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDCommonDefine.h; sourceTree = "<group>"; };
 		3BF83B172249BBF3001C0E45 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		3BF83B182249BBF3001C0E45 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		3BF83B1A2249BC1C001C0E45 /* UIColor+RCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RCColor.m"; sourceTree = "<group>"; };
-		3BF83B1B2249BC1C001C0E45 /* UIColor+RCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RCColor.h"; sourceTree = "<group>"; };
 		3BF83B31224C63FC001C0E45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3BF83B33224C6428001C0E45 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		3BF83B35224C645B001C0E45 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
@@ -223,8 +191,6 @@
 				3BF83AD32248CA4B001C0E45 /* RCSwiftTool.h */,
 				3BF83AD42248CA4B001C0E45 /* RCSwiftTool.m */,
 				3BF83B162249BBF3001C0E45 /* MBProgressHUD */,
-				3BF83AF52248EF36001C0E45 /* RealTimeLocation */,
-				3B13AB2A22365B2E007B808E /* RongContactCard.framework */,
 			);
 			path = Vender;
 			sourceTree = "<group>";
@@ -286,42 +252,6 @@
 				3B3DED562223F1900079DFE6 /* Info.plist */,
 			);
 			path = RCDemo_SwiftUITests;
-			sourceTree = "<group>";
-		};
-		3BF83AF52248EF36001C0E45 /* RealTimeLocation */ = {
-			isa = PBXGroup;
-			children = (
-				3BF83B122249BB7E001C0E45 /* RCDCommonDefine.h */,
-				3BF83B1B2249BC1C001C0E45 /* UIColor+RCColor.h */,
-				3BF83B1A2249BC1C001C0E45 /* UIColor+RCColor.m */,
-				3BF83AF82248EF36001C0E45 /* RCAnnotation */,
-				3BF83B042248EF36001C0E45 /* RealTimeLocationStatusView.h */,
-				3BF83AF62248EF36001C0E45 /* RealTimeLocationStatusView.m */,
-				3BF83B012248EF36001C0E45 /* HeadCollectionView.h */,
-				3BF83B082248EF36001C0E45 /* HeadCollectionView.m */,
-				3BF83B022248EF36001C0E45 /* RealTimeLocationViewController.h */,
-				3BF83B062248EF36001C0E45 /* RealTimeLocationViewController.m */,
-				3BF83B032248EF36001C0E45 /* RealTimeLocationStartCell.h */,
-				3BF83B072248EF36001C0E45 /* RealTimeLocationStartCell.m */,
-				3BF83AF72248EF36001C0E45 /* RealTimeLocationEndCell.h */,
-				3BF83B052248EF36001C0E45 /* RealTimeLocationEndCell.m */,
-			);
-			path = RealTimeLocation;
-			sourceTree = "<group>";
-		};
-		3BF83AF82248EF36001C0E45 /* RCAnnotation */ = {
-			isa = PBXGroup;
-			children = (
-				3BF83AF92248EF36001C0E45 /* RCLocationConvert.h */,
-				3BF83AFA2248EF36001C0E45 /* RCLocationView.h */,
-				3BF83AFB2248EF36001C0E45 /* RCAnnotationView.h */,
-				3BF83AFC2248EF36001C0E45 /* RCAnnotation.m */,
-				3BF83AFD2248EF36001C0E45 /* RCLocationConvert.m */,
-				3BF83AFE2248EF36001C0E45 /* RCLocationView.m */,
-				3BF83AFF2248EF36001C0E45 /* RCAnnotation.h */,
-				3BF83B002248EF36001C0E45 /* RCAnnotationView.m */,
-			);
-			path = RCAnnotation;
 			sourceTree = "<group>";
 		};
 		3BF83B162249BBF3001C0E45 /* MBProgressHUD */ = {
@@ -617,27 +547,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BF83B0F2248EF36001C0E45 /* RealTimeLocationViewController.m in Sources */,
 				3B13AB642238F478007B808E /* RCDLoginViewController.swift in Sources */,
 				3B13AB68223906CA007B808E /* RCDConversationViewController.swift in Sources */,
 				3BBE50BB2244CAF6006B7B13 /* RCDTestMessageCell.swift in Sources */,
-				3BF83B1C2249BC1C001C0E45 /* UIColor+RCColor.m in Sources */,
-				3BF83B0D2248EF36001C0E45 /* RCAnnotationView.m in Sources */,
 				3B13AB6A2239072D007B808E /* RCDContactsListViewController.swift in Sources */,
-				3BF83B112248EF36001C0E45 /* HeadCollectionView.m in Sources */,
 				3B017454225C39DC0075A740 /* RCDNotification.swift in Sources */,
 				3BF83AD52248CA4B001C0E45 /* RCSwiftTool.m in Sources */,
 				3B13AB282236550B007B808E /* RCDUserService.swift in Sources */,
-				3BF83B0E2248EF36001C0E45 /* RealTimeLocationEndCell.m in Sources */,
-				3BF83B092248EF36001C0E45 /* RealTimeLocationStatusView.m in Sources */,
-				3BF83B102248EF36001C0E45 /* RealTimeLocationStartCell.m in Sources */,
 				3B13AB66223905FB007B808E /* MainTabBarController.swift in Sources */,
 				3BF83B192249BBF4001C0E45 /* MBProgressHUD.m in Sources */,
 				3B13AB23223608A1007B808E /* RCDTestMessage.swift in Sources */,
-				3BF83B0A2248EF36001C0E45 /* RCAnnotation.m in Sources */,
-				3BF83B0B2248EF36001C0E45 /* RCLocationConvert.m in Sources */,
 				3B13AB1F2236084A007B808E /* RCDConversationListViewController.swift in Sources */,
-				3BF83B0C2248EF36001C0E45 /* RCLocationView.m in Sources */,
 				3B3DED352223F18D0079DFE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -833,82 +753,8 @@
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
-					"-l\"bz2\"",
-					"-l\"c++\"",
-					"-l\"c++abi\"",
-					"-l\"iconv\"",
-					"-l\"opencore-amrnb\"",
-					"-l\"opencore-amrwb\"",
-					"-l\"resolv\"",
-					"-l\"sqlite3\"",
-					"-l\"stdc++\"",
-					"-l\"vo-amrwbenc\"",
-					"-l\"xml2\"",
-					"-l\"z\"",
-					"-framework",
-					"\"AVFoundation\"",
-					"-framework",
-					"\"AlipaySDK\"",
-					"-framework",
-					"\"AssetsLibrary\"",
-					"-framework",
-					"\"AudioToolbox\"",
-					"-framework",
-					"\"CFNetwork\"",
-					"-framework",
-					"\"CoreAudio\"",
-					"-framework",
-					"\"CoreGraphics\"",
-					"-framework",
-					"\"CoreLocation\"",
-					"-framework",
-					"\"CoreMedia\"",
-					"-framework",
-					"\"CoreMotion\"",
-					"-framework",
-					"\"CoreTelephony\"",
-					"-framework",
-					"\"CoreText\"",
-					"-framework",
-					"\"CoreVideo\"",
-					"-framework",
-					"\"GLKit\"",
-					"-framework",
-					"\"ImageIO\"",
-					"-framework",
-					"\"JYangToolKit\"",
-					"-framework",
-					"\"JrmfPacketKit\"",
-					"-framework",
-					"\"JrmfWalletKit\"",
-					"-framework",
-					"\"MapKit\"",
-					"-framework",
-					"\"OpenGLES\"",
-					"-framework",
-					"\"QuartzCore\"",
-					"-framework",
-					"\"RongIMKit\"",
-					"-framework",
-					"\"RongIMLib\"",
-					"-framework",
-					"\"RongSight\"",
-					"-framework",
-					"\"RongSticker\"",
-					"-framework",
-					"\"SDWebImage\"",
-					"-framework",
-					"\"SafariServices\"",
-					"-framework",
-					"\"SystemConfiguration\"",
-					"-framework",
-					"\"UIKit\"",
-					"-framework",
-					"\"VideoToolbox\"",
-					"-framework",
-					"\"RongContactCard\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.rongcloud.RCDemo-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.rongcloud.RCDemo-Swift0909";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = RCDemo_Swift/Header.h;
 				SWIFT_VERSION = 4.2;
@@ -938,82 +784,8 @@
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
-					"-l\"bz2\"",
-					"-l\"c++\"",
-					"-l\"c++abi\"",
-					"-l\"iconv\"",
-					"-l\"opencore-amrnb\"",
-					"-l\"opencore-amrwb\"",
-					"-l\"resolv\"",
-					"-l\"sqlite3\"",
-					"-l\"stdc++\"",
-					"-l\"vo-amrwbenc\"",
-					"-l\"xml2\"",
-					"-l\"z\"",
-					"-framework",
-					"\"AVFoundation\"",
-					"-framework",
-					"\"AlipaySDK\"",
-					"-framework",
-					"\"AssetsLibrary\"",
-					"-framework",
-					"\"AudioToolbox\"",
-					"-framework",
-					"\"CFNetwork\"",
-					"-framework",
-					"\"CoreAudio\"",
-					"-framework",
-					"\"CoreGraphics\"",
-					"-framework",
-					"\"CoreLocation\"",
-					"-framework",
-					"\"CoreMedia\"",
-					"-framework",
-					"\"CoreMotion\"",
-					"-framework",
-					"\"CoreTelephony\"",
-					"-framework",
-					"\"CoreText\"",
-					"-framework",
-					"\"CoreVideo\"",
-					"-framework",
-					"\"GLKit\"",
-					"-framework",
-					"\"ImageIO\"",
-					"-framework",
-					"\"JYangToolKit\"",
-					"-framework",
-					"\"JrmfPacketKit\"",
-					"-framework",
-					"\"JrmfWalletKit\"",
-					"-framework",
-					"\"MapKit\"",
-					"-framework",
-					"\"OpenGLES\"",
-					"-framework",
-					"\"QuartzCore\"",
-					"-framework",
-					"\"RongIMKit\"",
-					"-framework",
-					"\"RongIMLib\"",
-					"-framework",
-					"\"RongSight\"",
-					"-framework",
-					"\"RongSticker\"",
-					"-framework",
-					"\"SDWebImage\"",
-					"-framework",
-					"\"SafariServices\"",
-					"-framework",
-					"\"SystemConfiguration\"",
-					"-framework",
-					"\"UIKit\"",
-					"-framework",
-					"\"VideoToolbox\"",
-					"-framework",
-					RongContactCard,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.rongcloud.RCDemo-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.rongcloud.RCDemo-Swift0909";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = RCDemo_Swift/Header.h;
 				SWIFT_VERSION = 4.2;
