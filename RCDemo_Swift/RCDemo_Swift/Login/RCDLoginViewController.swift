@@ -14,9 +14,9 @@ class RCDLoginViewController: UIViewController {
     
     // 使用时建议修改 tokenArray 和 AppDelegate 中的 appKey
     let tokenArray: [String] = [
-        "gE18zKsDUPc3RR7KKjxmB7qaWRw6IZ1fAWHoOwniB4RfR+q5JZS0MzQ5+XUwsxU8hezkTgeU7OtMChhii8FYmg==",
-        "9kHYHfTWs/fdBgBYWC4S+oThDjt3WBbJFq99/XGWOnl5BzJnKip2hUM/nMmpatSBl4kUPfe71jRW2qxRDls+6Q==",
-        "fLgNkwOXEOpsykh74+Jfgvu5NMcGf0nx0njkSW6H6fhM4pl6b+u6JOYA90TArdnqUx6W0f/1WChVBhIod+S7Nw=="
+        "LyNrhRcNvEoZyhWKSytkuLqaWRw6IZ1fAWHoOwniB4RtU7QCUjb3mGXCubS40wBWmtnvp/8wliFEerY9Kg2ENg==",
+        "sSk67DwhaMadLfNuO+OHV7qaWRw6IZ1fAWHoOwniB4RtU7QCUjb3mFO0P6NyFgN50w2giayfgwfTR7MSLt523w==",
+        "LlSwOuFDmX69fDGwKwMN0LqaWRw6IZ1fAWHoOwniB4RtU7QCUjb3mLEq1j+tFisXjFg0Pr0NXGY/uvYMJumnaw=="
     ]
     
     lazy var tableView: UITableView = {

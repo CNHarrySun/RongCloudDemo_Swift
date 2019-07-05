@@ -16,7 +16,7 @@ class RCDUserService: NSObject {
         
         var userArray: [RCUserInfo] = []
         let portrait = ["https://www.kuk8.com/uploads/allimg/170916/1-1F91214235H54.jpg","https://www.toux8.com/uploads/allimg/180130/041I453U-0.jpg", "https://pic.qqtn.com/up/2018-5/15252271245423063.jpg"]
-        let idArray = ["ceshi1", "ceshi2", "ceshi3"]
+        let idArray = ["test1", "test2", "test3"]
         let nameArray = ["测试1", "测试2", "测试3"]
         for (i, id) in idArray.enumerated() {
             let user = RCUserInfo(userId: id, name: nameArray[i], portrait: portrait[i])
@@ -29,8 +29,8 @@ class RCDUserService: NSObject {
         
         var groupArray: [RCGroup] = []
         let portrait = "https://www.kuk8.com/uploads/allimg/170916/1-1F91214235H54.jpg"
-        let idArray = ["123456"]
-        let nameArray = ["测试群组1"]
+        let idArray = ["1234567"]
+        let nameArray = ["测试群组"]
         for (i, id) in idArray.enumerated() {
             let group = RCGroup(groupId: id, groupName: nameArray[i], portraitUri: portrait)
             groupArray.append(group ?? RCGroup())
