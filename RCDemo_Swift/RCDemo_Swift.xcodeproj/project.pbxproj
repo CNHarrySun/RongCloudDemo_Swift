@@ -754,7 +754,7 @@
 					"$(inherited)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.rongcloud.RCDemo-Swift0909";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.rongcloud.RCDemo-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = RCDemo_Swift/Header.h;
 				SWIFT_VERSION = 4.2;
@@ -785,7 +785,7 @@
 					"$(inherited)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.rongcloud.RCDemo-Swift0909";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.rongcloud.RCDemo-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = RCDemo_Swift/Header.h;
 				SWIFT_VERSION = 4.2;
