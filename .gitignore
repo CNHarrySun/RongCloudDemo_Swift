@@ -1,6 +1,5 @@
-*~
-.DS_Store
-*.xcuserstate
-*.xcworkspace
-*.lock
-Pods
+Pods/*
+Podfile.lock
+SealTalk_Swift.xcworkspace
+SealTalk_Swift.xcodeproj/project.xcworkspace
+SealTalk_Swift.xcodeproj/xcuserdata
