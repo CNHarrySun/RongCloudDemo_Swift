@@ -34,7 +34,7 @@ class RCDConversationListViewController: RCConversationListViewController {
         let rightBarButton = UIBarButtonItem(title: "退出", style: .plain, target: self, action: #selector(logout))
         rightBarButton.tintColor = UIColor.blue
         navigationItem.rightBarButtonItem = rightBarButton
-        
+        conversationListTableView.tableFooterView = UIView()
     }
     
     // 修改头像显示

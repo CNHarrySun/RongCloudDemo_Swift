@@ -21,6 +21,7 @@ class RCDConversationViewController: RCConversationViewController, RCRealTimeLoc
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationItem.rightBarButtonItem = nil
         chatSessionInputBarControl.pluginBoardView.insertItem(with: UIImage(named: "urlPic"), title: "测试消息", tag: 2001)
         /*!
          注册自定义消息的Cell
