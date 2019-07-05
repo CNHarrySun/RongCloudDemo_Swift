@@ -85,6 +85,7 @@ class RCDConversationViewController: RCConversationViewController, RCRealTimeLoc
         let messageCell = cell as? RCMessageCell
         
         // 修改头像
+        // 由于 Swift 无法直接获取到会话 Cell 和消息 Cell 的头像，利用 RCSwiftTool 类获取
 //        let imageView = RCSwiftTool.getImageView(from: messageCell ?? RCMessageCell())
 //        imageView.layer.masksToBounds = true
 //        imageView.layer.cornerRadius = imageView.frame.width / 2

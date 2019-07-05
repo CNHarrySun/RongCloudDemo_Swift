@@ -40,6 +40,7 @@ class RCDConversationListViewController: RCConversationListViewController {
     // 修改头像显示
 //    override func willDisplayConversationTableCell(_ cell: RCConversationBaseCell!, at indexPath: IndexPath!) {
 //        let conversationCell = cell as? RCConversationCell
+//        // 由于 Swift 无法直接获取到会话 Cell 和消息 Cell 的头像，利用 RCSwiftTool 类获取
 //        let imageView = RCSwiftTool.getImageView(from: conversationCell ?? RCConversationCell())
 //        imageView.layer.masksToBounds = true
 //        imageView.layer.cornerRadius = imageView.frame.width / 2
