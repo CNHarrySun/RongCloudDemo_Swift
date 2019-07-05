@@ -29,6 +29,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         window?.rootViewController = mainTabbarVC
         
+        // fix：tabbar 的 item 偏移错乱
+        UITabBar.appearance().isTranslucent = false
+        
         showLoginVC()
         
         configRCSDK()
