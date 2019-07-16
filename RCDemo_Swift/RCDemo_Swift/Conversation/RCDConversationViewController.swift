@@ -37,7 +37,7 @@ class RCDConversationViewController: RCConversationViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         // 设置输入框的默认输入模式
-        defaultInputType = RCChatSessionInputBarInputType.voice
+//        defaultInputType = RCChatSessionInputBarInputType.voice
     }
     
     // 添加附加信息
