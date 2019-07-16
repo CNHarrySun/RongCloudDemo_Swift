@@ -1,0 +1,5 @@
+Pods/*
+Podfile.lock
+SealTalk_Swift.xcworkspace
+SealTalk_Swift.xcodeproj/project.xcworkspace
+SealTalk_Swift.xcodeproj/xcuserdata
