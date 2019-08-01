@@ -40,6 +40,7 @@ class RCDUserService: NSObject {
 }
 
 extension RCDUserService: RCIMUserInfoDataSource {
+    // 需返回正确的用户信息
     func getUserInfo(withUserId userId: String!, completion: ((RCUserInfo?) -> Void)!) {
         for userInfo in self.contacts() {
             if userInfo.userId == userId {
@@ -50,6 +51,7 @@ extension RCDUserService: RCIMUserInfoDataSource {
 }
 
 extension RCDUserService: RCIMGroupInfoDataSource {
+    // 需返回正确的群组信息
     func getGroupInfo(withGroupId groupId: String!, completion: ((RCGroup?) -> Void)!) {
         for group in self.groups() {
             if group.groupId == groupId {
@@ -61,7 +63,7 @@ extension RCDUserService: RCIMGroupInfoDataSource {
 
 extension RCDUserService: RCIMGroupMemberDataSource {
     func getAllMembers(ofGroup groupId: String!, result resultBlock: (([String]?) -> Void)!) {
-        let array = ["ceshi1", "ceshi2", "ceshi3"]
+        let array = ["test1", "test2", "test3"]
         resultBlock(array)
     }
 }

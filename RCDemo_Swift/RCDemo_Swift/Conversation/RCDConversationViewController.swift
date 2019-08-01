@@ -14,19 +14,14 @@ class RCDConversationViewController: RCConversationViewController {
         super.viewDidLoad()
         
         navigationItem.rightBarButtonItem = nil
+        // 添加测试消息的入口
         chatSessionInputBarControl.pluginBoardView.insertItem(with: UIImage(named: "urlPic"), title: "测试消息", tag: 2001)
-        /*!
-         注册自定义消息的Cell
-         
-         @param cellClass     自定义消息cell的类
-         @param messageClass  自定义消息Cell对应的自定义消息的类，该自定义消息需要继承于RCMessageContent
-         
-         @discussion
-         你需要在cell中重写RCMessageBaseCell基类的sizeForMessageModel:withCollectionViewWidth:referenceExtraHeight:来计算cell的高度。
-         */
+        
+        // 注册自定义消息的Cell
         register(RCDTestMessageCell.self, forMessageClass: RCDTestMessage.self)
         
         
+        // 加号区域增加发送文件功能，Kit 中已经默认实现了该功能，但是为了 SDK 向后兼容性，目前 SDK 默认不开启该入口，可以参考以下代码在加号区域中增加发送文件功能。
         if conversationType != RCConversationType.ConversationType_APPSERVICE && conversationType != RCConversationType.ConversationType_PUBLICSERVICE {
             let imageFile = RCKitUtility.imageNamed("actionbar_file_icon", ofBundle: "RongCloud.bundle")
             let pluginBoardView = chatSessionInputBarControl.pluginBoardView
