@@ -228,6 +228,11 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
         RCIMClient.shared()?.recordLocalNotificationEvent(notification)
     }
     
+    // 推送处理 2
+    func application(_ application: UIApplication, didRegister notificationSettings: UIUserNotificationSettings) {
+        application.registerForRemoteNotifications()
+    }
+    
     // 推送处理 3
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         let token = NSData(data: deviceToken).description.replacingOccurrences(of: "<", with: "").replacingOccurrences(of: ">", with: "").replacingOccurrences(of: " ", with: "")
