@@ -235,8 +235,7 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
     
     // 推送处理 3
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        let token = NSData(data: deviceToken).description.replacingOccurrences(of: "<", with: "").replacingOccurrences(of: ">", with: "").replacingOccurrences(of: " ", with: "")
-        RCIMClient.shared()?.setDeviceToken(token)
+        RCIMClient.shared()?.setDeviceTokenData(deviceToken)
     }
     
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
